@@ -1,0 +1,16 @@
+gdb wc
+
+Breakpoint 1, 0x00000000004007e1 in main ()
+
+set args "wordcount.txt"
+(gdb) print argc
+$1 = 2
+(gdb) print argv
+$2 = (char **) 0x7fffffffe628
+(gdb) print argv[0]
+$3 = 0x7fffffffe84d "/home/vagrant/code/group/hw/hw0/wc"
+(gdb) print argv[1]
+$4 = 0x7fffffffe870 "wordcount.txt"
+
+
+

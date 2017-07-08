@@ -1,0 +1,10 @@
+
+objdump -f wc:
+
+wc:     file format elf64-x86-64
+architecture: i386:x86-64, flags 0x00000112:
+
+Stack & heap have no segment in the executable. Dynamic space at run-time.
+
+
+
