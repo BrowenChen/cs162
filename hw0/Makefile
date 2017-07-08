@@ -1,4 +1,4 @@
-CC=gcc
+CC=gcc -std=c99
 CFLAGS=-I
 binaries=main map wc
 
